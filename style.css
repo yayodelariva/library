@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightpink;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#addBookBtn {
+    background-color: cadetblue;
+    border-style: none;
+    font-size: 1rem;
+    font-weight:400;
+    border-radius: 5px;
+    height: 4rem;
+    width: 6rem;
+    cursor: pointer;
+}
+
+#bookForm {
+    display: flex;
+    gap: 3rem;
+}
+
+#Library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+
+#cardContainer {
+    border: solid rgb(231, 231, 231) 2px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px;
+    padding: 0 .5rem;
+}
+
+.addButton {
+    cursor: pointer;
+}
+
+.cardButtons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin: 6px 0 0 0;
+}
+
+.author {
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+    font-weight: lighter;
+    color: #424141;
+  font-style: italic;
+}
+
+.read {
+    font-size: .8rem;
+    font-weight: lighter;
+    margin: 10px 0 10px 0;
+    color: grey;
+}
+
+.readButton {
+    background-color: lightskyblue;
+    font-size: .9rem;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background-color: rgb(206, 70, 70);
+    color: white;
+    font-size: .9rem;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
